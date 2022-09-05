@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    color:black;
+    transition: 1s ease;
+}
+
+.darkMode{
+    background-color: black;
+    
+}
+
+.container{
+    margin-top: 5%;
+}
+
+#divContenidos{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    text-align:center;
+}
+
+.card-header{
+    display: contents;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width: 120px;
+    height: auto;
+    align-items: flex-end;
+}
+
